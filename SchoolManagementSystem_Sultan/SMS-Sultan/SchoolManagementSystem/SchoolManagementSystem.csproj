@@ -81,6 +81,7 @@
     <Content Include="assets\dist\css\alt\adminlte.pages.min.css" />
     <Content Include="assets\dist\css\alt\adminlte.plugins.css" />
     <Content Include="assets\dist\css\alt\adminlte.plugins.min.css" />
+    <Content Include="assets\dist\css\custom-css.css" />
     <Content Include="assets\dist\img\AdminLTELogo.png" />
     <Content Include="assets\dist\img\avatar.png" />
     <Content Include="assets\dist\img\avatar2.png" />
@@ -1513,8 +1514,10 @@
     <Content Include="assets\site\js\main.js" />
     <Content Include="assets\site\js\plugins.js" />
     <Content Include="dashboard\admin-index.aspx" />
+    <Content Include="dashboard\RegUserList.aspx" />
     <Content Include="dashboard\StudentAdmission.aspx" />
     <Content Include="dashboard\User_List.aspx" />
+    <Content Include="JsFile.js" />
     <Content Include="login.aspx" />
     <Content Include="dashboard\Student-profile.aspx" />
     <Content Include="events.aspx" />
@@ -1543,6 +1546,13 @@
     </Compile>
     <Compile Include="dashboard\admin-index.aspx.designer.cs">
       <DependentUpon>admin-index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard\RegUserList.aspx.cs">
+      <DependentUpon>RegUserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dashboard\RegUserList.aspx.designer.cs">
+      <DependentUpon>RegUserList.aspx</DependentUpon>
     </Compile>
     <Compile Include="dashboard\StudentAdmission.aspx.cs">
       <DependentUpon>StudentAdmission.aspx</DependentUpon>
